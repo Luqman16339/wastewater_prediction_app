@@ -260,3 +260,4 @@ st.markdown('<div class="footer">© 2026 Ministry of Water Resources | Data is c
 #load trained model
 #model = joblib.load(r"models\wastewater_model.pkl")
 
+
