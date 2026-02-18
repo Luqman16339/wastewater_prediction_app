@@ -5,7 +5,7 @@ import numpy as np
 import streamlit as st
 
 #load trained model
-model = joblib.load(wastewater_model.pkl")
+model = joblib.load("wastewater_model.pkl")
 
 # --- PAGE CONFIG ---
 st.set_page_config(
@@ -259,5 +259,6 @@ st.markdown('<div class="footer">© 2026 Ministry of Water Resources | Data is c
 
 #load trained model
 #model = joblib.load(r"models\wastewater_model.pkl")
+
 
 
