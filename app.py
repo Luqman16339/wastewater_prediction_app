@@ -14,7 +14,7 @@ st.set_page_config(
 )
 
 # # --- CUSTOM CSS ---
- st.markdown("""
+st.markdown("""
  <style>
  /* Hide Streamlit default menu, footer, and header */
  MainMenu {visibility: hidden;}
@@ -259,6 +259,7 @@ st.markdown('<div class="footer">© 2026 Ministry of Water Resources | Data is c
 
 #load trained model
 #model = joblib.load(r"models\wastewater_model.pkl")
+
 
 
 
