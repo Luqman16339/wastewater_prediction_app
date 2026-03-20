@@ -204,7 +204,7 @@ st.markdown("""
 
 
 # --- HEADER ---
-st.markdown('<div class="header">Luqman's Project Wastewater Volume Prediction System 💦💧</div>', unsafe_allow_html=True)
+st.markdown('<div class="header">🎓Luqman Project Wastewater Volume Prediction System 💦💧</div>', unsafe_allow_html=True)
 st.markdown('<div class="dashboard-card">',unsafe_allow_html=True)
 
 st.markdown('<div class="dashboard-title"> Wastewater Prediction Dashboard</div>',unsafe_allow_html=True)
