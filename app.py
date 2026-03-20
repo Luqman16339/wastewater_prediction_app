@@ -254,7 +254,7 @@ if st.button("Predict Wastewater Volume"):
     st.success(f"💧 Predicted Wastewater Volume: {predict:.2f} m³")
 st.markdown('</div>',unsafe_allow_html=True)
 # --- FOOTER ---
-st.markdown('<div class="footer">© 2026 Ministry of Luqman resources 😂👍🏽| Data is confidential all rights reseved</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">© 2026 Ministry of Luqman resources 😂👍🏽| Data is confidential all rights reseved..Thank you for your time and participating on my 3rd semister project</div>', unsafe_allow_html=True)
 
 
 #load trained model
