@@ -127,79 +127,6 @@ st.markdown("""
  """, unsafe_allow_html=True)
 
 
-# st.markdown("""
-# <style>
-# /* ===== Government theme ===== */
-# .stApp {
-#     background-color: #f1f5f9;
-#     font-family: "Segoe UI", Arial, sans-serif;
-# }
-
-# /* Header bar */
-# .gov-header {
-#     background: #0f172a;
-#     color: white;
-#     padding: 16px 24px;
-#     border-radius: 10px;
-#     margin-bottom: 24px;
-# }
-
-# .gov-title {
-#     font-size: 22px;
-#     font-weight: 700;
-# }
-
-# .gov-subtitle {
-#     font-size: 14px;
-#     color: #cbd5f5;
-# }
-
-# /* Card */
-# .dashboard-card {
-#     border: 1px solid #cbd5e1;
-#     box-shadow: none;
-#     border-radius: 8px;
-# }
-
-# /* Section title */
-# .gov-section {
-#     font-size: 15px;
-#     font-weight: 700;
-#     color: #1f2937;
-#     border-bottom: 2px solid #e5e7eb;
-#     padding-bottom: 6px;
-#     margin: 20px 0 16px 0;
-# }
-
-# /* Labels */
-# label {
-#     font-size: 15px !important;
-#     font-weight: 700 !important;
-#     color: #1e3a8a !important;  /* gov blue */
-# }
-
-# /* Inputs */
-# div[data-baseweb="input"] > div {
-#     min-width: 280px;
-#     max-width: 340px;
-# }
-# div[data-baseweb="input"] input {
-#     height: 44px;
-#     border-radius: 6px;
-#     border: 1px solid #94a3b8;
-# }
-
-# /* Button */
-# div.stButton > button {
-#     background: #1e3a8a;
-#     border-radius: 6px;
-#     font-size: 16px;
-# }
-# div.stButton > button:hover {
-#     background: #1d4ed8;
-# }
-# </style>
-# """, unsafe_allow_html=True)
 
 
 
@@ -230,8 +157,7 @@ with col3:
 with col4:
    industrial_water_use = st.number_input("Industrial water use (L/day)",min_value=0.0,value=None)   
 
-# --- INPUTS ---
-#st.markdown('<div class="section-title">Enter details below:</div>',unsafe_allow_html=True)
+
 
 #---------------ROW 3 (CENTRED)-----------------
 col5, col6, col7 = st.columns([1, 2, 1])
@@ -257,8 +183,6 @@ st.markdown('</div>',unsafe_allow_html=True)
 st.markdown('<div class="footer">© 2026 Ministry of Luqman resources 😂👍🏽| Data is confidential all rights reseved..Thank you for your time and participating on my 3rd semister project</div>', unsafe_allow_html=True)
 
 
-#load trained model
-#model = joblib.load(r"models\wastewater_model.pkl")
 
 
 
